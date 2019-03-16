@@ -1,0 +1,63 @@
+/* RESET CSS */
+
+body {
+  font-family: 'Sniglet', 'cursive';
+  background-image: url("dudel.jpg");
+}
+
+button:hover {
+  border: none;
+}
+
+/* =============================================================== */
+
+/* CALCULATOR BODY */
+
+.calculator {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100%;
+  height: 80vh;
+}
+
+.main-body {
+  height: 100%;
+  width: auto;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+.display-screen {
+  height: 5rem;
+  width: 100%;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.display-screen p {
+  text-align: right;
+  font-size: 3rem;
+  padding-right: 16px;
+  overflow-y: hidden;
+}
+
+#user-input {
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.display-screen p::-webkit-scrollbar {
+  width: 0px;
+}
+
+.number,
+.operator,
+.helper {
+  height: 5.28rem;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.75rem;
+}
+
